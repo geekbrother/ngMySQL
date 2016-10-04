@@ -1,5 +1,5 @@
-# ngMysql
-Mysql PHP Binding library for AngularJS.
+# ngMySQL
+PHP + MySQL Binding library for AngularJS.
 
 This library gets PHP STDIN and parse for JSON coming from AngularJS frontend and UPDATE,DELETE records in table based on paramaters which columns need to be changed and whats use as a key in JSON request.
 Also you can get records from table(s) in JSON format for AngularJS based on filtering which passes to methods.
