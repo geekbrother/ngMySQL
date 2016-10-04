@@ -19,7 +19,7 @@ $ngmysql->debug = true;
 
 ```
 
-Example of SHOW table records with `id,added,name,date` columns and order by `added DESC`:
+Example of **SHOW** table records with `id,added,name,date` columns and order by `added DESC`:
 ```php
 function ShowOrders($ngmysql) {
 	$ngmysql->table='table';
@@ -29,7 +29,7 @@ function ShowOrders($ngmysql) {
 
 ```
 
-Example of UPDATE table records from `POST` request `JSON` from AngularJS where KEY for UPDATE is `id` and additional SQL parameters for UPDATE is `status=2`:
+Example of **UPDATE** table records from `POST` request `JSON` from AngularJS where KEY for UPDATE is `id` and additional SQL parameters for UPDATE is `status=2`:
 ```php
 if (!$ngmysql->update_json('id','','','status=2') ){
   echo 'Error durng update';
